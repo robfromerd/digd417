@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>FF DEV TOOLS DEMO</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img {
+        width:100px;
+        height:auto;
+        display:block; /*FOR ANOTHER REASON THIS RULE HAS OVERRIDEN THE NORMAL INLINE DISPLAY ATTRIBUTE OF IMG */
+        }
+    	.align-me {
+        vertical-align: middle;
+        display:inline-block; /*this was added to override the above rule and thus allow the vertical-align 
+        declaration to work */
+        }
+        
+    </style>
+</head>
+
+<body>
+	<main>
+
+<p>This is a paragraph. <img class="align-me" src="https://www.jefferson.edu/content/dam/academic/logos/new-logo.svg"> with some more words.</p>
+      
+    </main>
+	<script type="text/javascript" src=""></script>
+</body>
+
+</html>
